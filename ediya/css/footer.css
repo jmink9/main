@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{width: 1900px;
+    margin: 0px;}
+
+/*푸터*/
+footer{background-color: rgb(38, 38, 38);
+    color: rgb(108, 108, 108);
+    height: 270px;}
+
+footer ul{list-style: none;
+    font-size: 13px;
+    padding: 8px 200px;
+    border-bottom: 1px rgb(71, 71, 71) solid;
+    color: rgb(134, 134, 134);
+    justify-content: center;
+    display: flex;}
+
+footer li{margin: 17px;}
+
+select{position: relative;
+    top: -60px;
+    left: 1390px;
+    width: 180px;
+    padding: 5px 20px;}
+
+#footer{text-align: center;
+    display: block;
+    font-size: 12px;}
+
+#footer_white{color: white;
+            font-weight: bold;}
+
+#footer img{margin: 0px 0px 15px 0px;}
+
+#footer #m{margin-top: 20px;}
+
+#footer_img{float: right;
+        margin-top: -140px;
+        margin-right: 350px;}
