@@ -1,0 +1,404 @@
+@charset "UTF-8";
+body{margin: 0; padding: 0;}
+
+#back_black{background-color: black;
+        padding-top: 50px;}
+
+#back{margin: 0px auto; padding: 0;
+        width: 1600px;}
+
+ul{ list-style:none; padding: 0px; }
+
+
+/*header*/
+header{text-align: center;
+        color: white;
+        background: linear-gradient(
+            black , rgba(0, 0, 0, 0.747) ,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)) ;
+        position: absolute;
+        z-index: 999;
+        width: 1920px;
+        margin-left: -160px;
+        /*margin-top: -50px;*/
+        top: 40px;}
+
+#special{background-color: aliceblue;
+        display: flex;
+        justify-content: center;}
+
+#special img{margin: 5px 30px;}
+
+#logo{display: flex;
+    justify-content: center;
+    padding: 20px 0px 5px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.719);
+    font-size: 15px;}
+
+#lotte_logo{padding: 0px 165px 0px 225px;}
+
+#sns{display: flex;
+    padding-top: 10px;}
+#sns li img{padding-left: 17px;
+            padding-right: 7px;}
+
+#menu{display: flex;
+    padding-top: 10px;}
+#menu li{padding-right: 17px;}
+
+
+    
+    /*메뉴*/
+#container{ margin: 0px auto;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 75px;}
+
+.menu_s a{ text-decoration: none; 
+            color:white; 
+            padding-bottom: 5px;
+            font-size: 17px; font-weight: bold;}
+
+.menu_s a:hover{border-bottom: 3px solid red;}
+
+ul.menu >li{display: inline-block;
+            width:110px;
+            text-align: center; margin: -3px;}
+            
+.bo{margin-bottom: 15px;}
+
+.sub{position:absolute;
+    left: 830px;
+    margin-top: 10px;
+    /*margin-top: 16px;
+    margin-top: 23px;*/
+    z-index: 999;}
+    
+.sub li{text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    display: inline;  /*하위메뉴 행으로 표시*/
+    width: 1800px;}
+
+
+.sub li a{font-size: 15px;
+            color: rgb(189, 189, 189);}
+            
+.sub li a:hover{color: rgb(255, 255, 255);
+                border: none;}
+
+#sub01{position:absolute;
+        left: 560px;
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 20px 30px;
+        background-color: rgba(0, 0, 0, 0.493);}
+
+#sub02{position:absolute;
+        left: 650px;
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 15px 30px;
+        background-color: rgba(0, 0, 0, 0.493);}
+
+#sub03{position:absolute;
+        left: 550px;
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 15px 30px;
+        background-color: rgba(0, 0, 0, 0.493);}
+
+#sub04{position:absolute;
+        left: 760px;
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 15px 30px;
+        background-color: rgba(0, 0, 0, 0.493);}
+
+#sub05{position:absolute;
+        left: 970px;
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 15px 30px;
+        background-color: rgba(0, 0, 0, 0.493);}
+
+
+#side ul{margin-right: -497px;
+        font-size: 14px;
+        padding-top: 5px;}
+
+#side ul li{display: inline;}
+#side ul li img{padding-left: 15px;}
+
+
+/*배너*/
+.visual{margin-top: -30px;}
+
+.visual .arrow{position: absolute;
+    top: 50%;
+    z-index: 100;
+    margin-top: -20px;
+    cursor: pointer;
+    width: 2000px;}
+
+    .visual #prev{left: 250px;}
+
+    .visual #next{right: 250px;}
+
+        /* swiper */
+    .visual .swiper-container{max-width: 1920px;
+                                margin: 0 auto;            
+                                position: relative;}
+
+    .visual img{vertical-align: top;}
+
+#black{background-color: black;
+        padding-bottom: 500px;}
+
+
+/*순위*/
+#tab_li{display: flex;
+    justify-content: center;
+    width: 100%;}
+
+#tab{color:white;
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: -670px;
+    position: absolute;
+    z-index: 990;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0) ,rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.986), 
+        rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.877), black) ;}
+
+#tab table{margin-top: 30px;}
+
+#tab table tr th img{border: 2px black solid;
+                    border-radius: 20px;
+                    padding: 5px;}
+
+#tab table tr td{padding: 5px;}
+
+
+#num{position: absolute;
+    z-index: 992;}
+#num01{position: absolute;
+        left: 18px;
+        top: 45px;}
+#num02{position: absolute;
+        left: 245px;
+        top: 45px;}
+#num03{position: absolute;
+        left: 475px;
+        top: 45px;}
+#num04{position: absolute;
+        left: 700px;
+        top: 45px;}
+#num05{position: absolute;
+        left: 930px;
+        top: 45px;}
+#num06{position: absolute;
+        left: 1150px;
+        top: 175px;}
+
+.grid{display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 20px;
+    grid-gap: 20px;
+    position: relative;}
+
+.grid-item{overflow: hidden;
+            border-radius: 10px;
+            position: relative;}
+
+.grid-item > img{border-radius: 10px;
+                height: auto;}
+
+
+.hover-text {position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.61);
+            color: #fff;
+            opacity: 0;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0; 
+            transition: opacity .2s, visibility .2s;
+            height: 100%;}
+
+.hover-text02 {position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                color: #fff;
+                opacity: 0;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 0; 
+                transition: opacity .2s, visibility .2s;
+                height: 100%;}
+
+.hover-text span{position: absolute;
+                    top: 120px;
+                    left: 35px;
+                    width: 150px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    padding: 5px;}
+
+.hover-text02 span{position: absolute;
+                    top: 170px;
+                    left: 35px;
+                    width: 150px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    padding: 5px;}
+
+                
+.grid-item:hover .hover-text {visibility: visible;
+                                opacity: 1;
+                                cursor: pointer;}
+
+
+.grid-item:hover .hover-text02 {visibility: visible;
+                                opacity: 1;
+                                cursor: pointer;}
+
+#min td span{font-size: 20px;
+            font-weight: bold;}
+
+#min_s , #min{text-align: center;}
+
+#min td{font-size: 16px;
+        font-weight: bold;}
+
+#min_s td{font-size: 13px;}
+
+#min img{margin-bottom: -5px;
+        padding-right: 7px;}
+#min_s img{padding-right: 5px;}
+
+
+
+/*이벤트*/
+#event{display: flex;
+        justify-content: center;
+        /*width: 100%;*/
+        background-color: black;}
+
+/*#eve_blue{position: absolute;
+        left: 1485px;
+        top: 1406px;}*/
+
+#img_box{position: absolute;}
+
+#eve_blue{position: absolute;
+        top: 5px;
+        left: 386px;
+        /*top: 1402px;
+        left: 1467px;*/}
+
+#eve_text{text-align: center;
+        padding-bottom: 20px;
+        color: white;}
+
+#eve_text h1{margin: 0;}
+
+#eve_img{display: flex;
+        justify-content: center;
+        margin-left: -295px;}
+#eve_img img{padding: 4px;}
+
+#eve_img02{display: flex;
+            justify-content: center;
+            margin-left: -295px;}
+#eve_img02 img{padding: 4px;}
+
+
+
+
+/*시사회*/
+section{display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: black;
+        padding-bottom: 50px;}
+
+#text_w{display: flex;
+        color: white;
+        padding-top: 40px;
+        font-size: 18px;
+        font-weight: bold;}
+
+#text_w p:nth-of-type(2){font-size: 12px;
+                        margin-left: 770px;
+                        margin-top: 30px;}
+
+
+#vi{display: flex;}
+
+.img_box{margin: 0 auto;
+        overflow: hidden;}
+
+.img_box:hover img{width: 100%;
+                    transform: scale(1.1);}
+
+.img_box a img{transition: all 0.5s;}
+
+#tex_wh{display: flex;
+        color: white;
+        font-size: 13px;
+        margin-top: 60px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.514);}
+
+#tex_wh span{padding: 0px 12px;}
+#tex_wh p:nth-of-type(2){margin-left: 580px;}
+
+#box{margin-top: 15px;}
+
+#bann{margin-top: 5px;
+    margin-bottom: 80px;}
+
+#bl{display: flex;
+    justify-content: center;
+    background-color: #006cff;}
+
+#bl img{margin-top: -40px; 
+        padding-top: 0;}
+
+
+
+/*푸터*/
+#footer_s{margin: 0px auto; padding: 0;
+        width: 1600px;}
+footer{display: flex;
+        justify-content: center;
+        font-size: 12px;}
+
+#footer_lo{padding-top: 90px;}
+
+footer ul{display: flex;}
+footer ul li{padding: 3px;}
+
+.bla_{text-decoration : underline;
+        font-weight: bold;}
+
+#ma{margin-top: 18px;
+        margin-bottom: 0;}
+
+.ma_pa{margin: 0;
+        padding: 0;}
+
+#footer_img{display: flex;
+                justify-content: center;
+                background-color: aliceblue;
+                margin-top: 60px;
+                padding: 20px;}
+
+#footer_img img{padding: 0px 7px;}
+
+
