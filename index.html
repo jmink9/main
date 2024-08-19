@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포트폴리오</title>
     <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index -01_01 copy.css">
     <script src="js/swiper.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
 </head>
 <body>
     <div id="wrap">
     <!--메인-->
-        <div class="content">
-            <div id="port">
-                <img id="name" src="images/main_name.png" alt="name">
-                <!--<img id="port_f" src="images/main_po.png" alt="portfolio" width="700px";>-->
-                <img  id="port_f" src="images/main_po05.png" alt="#">
-                <img id="wd" src="images/main_2024_2.png" alt="2024">
+        <div id="width_top">
+            <img src="images/back.png" width="100%">
+            <div id="center">
+                <div id="port">
+                    <div id="top_header">
+                        <img id="port_f" src="images/main_po_02.png">
+                    </div>
+                </div>
             </div>
         </div>
 
     <!--자기소개-->
         <div class="content">
                 <div id="size01">
-                    <!--<img src="images/aboutme_15.png" alt="aboutme">-->
                     <div id="aboutme">
                         <img id = "me" src="images/dog_me.png" alt="me" width="1200px">
                         <div id="profile">
@@ -91,12 +92,12 @@
                                     <p><a href="odd/index.html" target="_blank" >WEB SITE</a></p>
                                 </div>
                             </div>
-                            <a href="#"><img id="web_img" src="images/odd_ph.png" alt="HTML"></a>
+                            <a href="odd/index.html" target="_blank" ><img id="web_img01" src="images/odd_ph.png" alt="HTML" width="600px"></a>
                         </div>
 
                         <div class="swiper-slide">
                             <div id="web_text">
-                                <h2>롯데시네마</h2>
+                                <h2>롯데시네마(Re Design)</h2>
                                 <p>제작물<br>메인페이지</p>
                                 <p>기여도<br>개인 작업 100%</p>
                                 <p>작업 툴<br>Photoshop / Visual Studio Code</p>
@@ -110,7 +111,7 @@
                                     <p><a href="lotte/index.html" target="_blank" >WEB SITE</a></p>
                                 </div>
                             </div>
-                            <a href="#"><img  id="web_img" src="images/lotte_c.png" alt="#"></a>
+                                <a href="lotte/index.html" target="_blank" ><img id="web_img" src="images/lotte_c.png" alt="#"></a>
                         </div>
 
                         <div class="swiper-slide">
@@ -120,13 +121,12 @@
                                 <p>기여도<br>개인 작업 100%</p>
                                 <p>작업 툴<br>Photoshop / Visual Studio Code</p>
                                 <p>프로젝트 소개<br>
-                                    <span>기존 사이트에서 불편한 점을 찾아 개선하여, 카피 사이트를 제작하였습니다.</span></p>
+                                    <span>브랜드 컬러를 더욱 강조하였고, 텍스트와 이미지를 조화롭게 배치하여 정보 전달력을 강화했으며, 사용자들이 자주 사용하는 메뉴를 중점으로 웹사이트의 전반적인 가독성을 높였습니다.</span></p>
                                 <div id="box">
-                                    <p><a href="images/던킨 (1).png" target="_blank" >Re Design</a></p>
                                     <p><a href="dunkin//index.html" target="_blank" >WEB SITE</a></p>
                                 </div>
                             </div>
-                            <a href="#"><img id="web_img" src="images/don.png" alt="HTML"></a>
+                            <a href="dunkin//index.html" target="_blank" ><img id="web_img" src="images/don.png" alt="HTML"></a>
                         </div>
 
                         <div class="swiper-slide">
@@ -136,16 +136,16 @@
                                 <p>기여도<br>개인 작업 100%</p>
                                 <p>작업 툴<br>Photoshop / Visual Studio Code</p>
                                 <p>프로젝트 소개<br>
-                                    <span>공식 홈페이지를 디자인 변경 없이 동일하게 제작하였습니다.</span></p>
+                                    <span>공식 홈페이지의 원본 디자인을 충실히 반영하여 동일하게 재구성하였습니다.</span></p>
                                 <div id="box">
                                     <p><a href="ediya/index.html" target="_blank" >WEB SITE</a></p>
                                 </div>
                             </div>
-                            <a href="#"><img id="web_img" src="images/ed.png" alt="#"></a>
+                            <a href="ediya/index.html" target="_blank" ><img id="web_img" src="images/ed.png" alt="#"></a>
                         </div> 
                     </div>
                     
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination" id="butt_top"></div>
                     <div id="triangle02" class="next"></div>
                 </div>
             </div>
@@ -158,47 +158,301 @@
                     <div id="triangle03" class="prev"></div>
                     <img id="des" src="images/design_15.png" alt="design">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" id="des_img">
-                                <div class="des_box">
-                                    <div>
-                                        <a href="images/ma.jpg" onClick="window.open(this.href, '', 'width=500, height=430'); return false;"><img src="images/ma.jpg" width="200px" height="165px"></a>
-                                        <a href="images/port.jpg" onClick="window.open(this.href, '', 'width=400, height=430'); return false;"><img src="images/port.jpg" width="238px"></a>
-                                        <a href="#"><video controls="controls" width="600px">
-                                            <source src="images/dunkin_donut.mp4">
-                                        </video></a>
-                                    </div>
-                                    <a href="images/ma.jpg" onClick="window.open(this.href, '', 'width=500, height=430'); return false;"><img id="top" src="images/ma.jpg" width="200px" height="165px"></a>
-                                </div>
-                        </div>
                         <div class="swiper-slide">
                             <div class="des_box">
-                                <a href="#"><img src="images/a.png" width="200px"></a>
-                                <a href="#"><img src="images/b.png" width="200px"></a>
-                                <a href="#"><img src="images/c.png" width="200px"></a>
-                                <a href="#"><img src="images/d.png" width="200px"></a>
-                                <a href="#"><img src="images/a.png" width="200px"></a>
-                            </div>                    
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="des_box">
-                                <a href="#"><img src="images/a.png" width="200px"></a>
-                                <a href="#"><img src="images/b.png" width="200px"></a>
-                                <a href="#"><img src="images/c.png" width="200px"></a>
-                                <a href="#"><img src="images/d.png" width="200px"></a>
-                                <a href="#"><img src="images/a.png" width="200px"></a>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/ODD_po05_01-02.png" onClick="openCenteredWindow(this.href,700, 700); return false;">
+                                                    <img src="images/ODD_po05_01-02.png" width="200px" height="165px">
+                                                    <p class="hover-text"><span>SNS 이벤트<br> 광고 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/ODD_po03_01-02.png" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/ODD_po03_01-02.png" width="200px" height="165px">
+                                                    <p class="hover-text"><span>SNS 브랜드<br> 광고 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/ODD_po04_01.jpg" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/ODD_po04_01.jpg" width="200px" height="165px">
+                                                    <p class="hover-text"><span>SNS 광고<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/ODD_2D.jpg" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/ODD_2D.jpg" width="238px">
+                                                    <p class="hover-text02"><span>이벤트<br>포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/ODD_PO02_05.png" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/ODD_PO02_05.png" width="238px">
+                                                    <p class="hover-text02"><span>광고<br>포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr id="min">
+                                        <td colspan="3">
+                                            <div class="grid-item">
+                                                <a href="images/ODD_2d_b.png" onClick="openCenteredWindow(this.href,1200,400); return false;">
+                                                    <img src="images/ODD_2d_b.png" width="613px" height="165px">
+                                                    <p class="hover-text03"><span>배너 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
                         </div>
+
                         <div class="swiper-slide">
                             <div class="des_box">
-                                <a href="#"><img src="images/a.png" width="200px"></a>
-                                <a href="#"><img src="images/b.png" width="200px"></a>
-                                <a href="#"><img src="images/c.png" width="200px"></a>
-                                <a href="#"><img src="images/d.png" width="200px"></a>
-                                <a href="#"><img src="images/a.png" width="200px"></a>
+                                <table>
+                                    <tr>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/lotte_po.png" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/lotte_po.png" width="238px">
+                                                    <p class="hover-text02"><span>통신사 할인<br>포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/lotte_po05_03.png" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/lotte_po05_03.png" width="200px" height="165px">
+                                                    <p class="hover-text"><span>광고 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/lotte_po06_02.png" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/lotte_po06_02.png" width="200px" height="165px">
+                                                    <p class="hover-text"><span>광고 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/lotte_po02_06.png" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/lotte_po02_06.png" width="238px">
+                                                    <p class="hover-text02"><span>이벤트 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/lotte_po03.png" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/lotte_po03.png" width="238px">
+                                                    <p class="hover-text02"><span>이벤트 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr id="min">
+                                        <td colspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/lotte_po04.png" onClick="openCenteredWindow(this.href,1200,400); return false;">
+                                                    <img src="images/lotte_po04.png" width="407px"height="165px">
+                                                    <p class="hover-text04"><span>배너 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="des_box">
+                                <table>
+                                    <tr>
+                                        <td id="dun_top">
+                                            <div class="grid-item">
+                                                <a href="images/ma.jpg" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/ma.jpg" width="200px" height="165px">
+                                                    <p class="hover-text"><span>던킨 명함<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2" colspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/port.jp" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/port.jpg" width="238px">
+                                                    <p class="hover-text02"><span>이벤트<br>포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <iframe width="600" height="340" src="https://www.youtube.com/embed/q6OIlfUqUK8?si=VC1jN2yQmwtaWn6p&amp;controls=0" title="YouTube video player" 
+                                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr id="min">
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/don_03-03.png" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/don_03-03.png" width="200px" height="165px">
+                                                    <p class="hover-text"><span>입체 광고<br> 포스터</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="des_box">
+                                <table>
+                                    <tr>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/ediya_po01.png" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/ediya_po01.png" width="238px">
+                                                    <p class="hover-text02"><span>메뉴<br> 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/ediya_po02_03.png" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/ediya_po02_03.png" width="238px">
+                                                    <p class="hover-text02"><span>신메뉴 광고<br> 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td colspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/ediya_po06_03.png" onClick="openCenteredWindow(this.href,1200,400); return false;">
+                                                    <img src="images/ediya_po06_03.png" width="407px"height="165px">
+                                                    <p class="hover-text04"><span>배너 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td rowspan="2">
+                                            <div class="grid-item">
+                                                <a href="images/ediya_po03_07.png" onClick="openCenteredWindow(this.href,700,1000); return false;">
+                                                    <img src="images/ediya_po03_07.png" width="238px">
+                                                    <p class="hover-text02"><span>신메뉴 광고<br> 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr id="min">
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/ediya_po04_02.png" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/ediya_po04_02.png" width="203px" height="168px">
+                                                    <p class="hover-text"><span>SNS 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/ediya_po05_02.png" onClick="openCenteredWindow(this.href,700,700); return false;">
+                                                    <img src="images/ediya_po05_02.png" width="200px" height="168px">
+                                                    <p class="hover-text"><span>SNS 포스터 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="des_box">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_05.png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_05.png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_01.png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_01.png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_04.png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_04.png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_03..png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_03..png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr id="min">
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_09.png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_09.png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_06.png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_06.png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_07_01.png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_07_01.png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="grid-item">
+                                                <a href="images/2d_08_05.png" onClick="openCenteredWindow(this.href,1000,560); return false;">
+                                                    <img src="images/2d_08_05.png" width="259px" height="165px">
+                                                    <p class="hover-text05"><span>포트폴리오<br> 디자인</span></p>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
                         </div> 
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination" id="butt_bo"></div>
                     <div id="triangle04" class="next"></div>
                 </div>
 
@@ -207,35 +461,43 @@
 
 
     <!--푸터-->
-        <div class="content">
-            <div class="size">
-                <img id="star01" src="images/star.png" alt="별">
-                
-                <div id="thank">
-                    <img src="images/contact_thank.png" alt="인사" width="820px">
+        <div class="content" id="footer">
+                <div id="footer_ba">
+                    <div>
+                        <img id="footer_text" src="images/footer_text.png">
+                    </div>
+                    <div id="contack_ic">
+                        <a href="mailto:jmink9@naver.com">
+                            <img src="images/mail.png" width="30px">
+                        </a>    
+                        <a href="mailto:jmink9@naver.com"><p class="footer">jmink9@naver.com</p></a>
+                        <a href="https://www.instagram.com/jmink_9/?igsh=MWw2dGh5cmRtcnc2MQ%3D%3D&utm_source=qr"  target="_blank" >
+                            <img src="images/in.png" width="26px">
+                        </a>    
+                        <a href="https://www.instagram.com/jmink_9/?igsh=MWw2dGh5cmRtcnc2MQ%3D%3D&utm_source=qr">
+                            <p class="footer">@jmink_9</p>
+                        </a>
+                    </div>
                 </div>
-                
-                <div id="contack_ic">
-                    <a href="mailto:jmink9@naver.com">
-                        <img src="images/mail.png" width="30px">
-                    </a>    
-                    <a href="mailto:jmink9@naver.com"><p class="footer">jmink9@naver.com</p></a>
-                    <a href="https://www.instagram.com/jmink_9/?igsh=MWw2dGh5cmRtcnc2MQ%3D%3D&utm_source=qr"  target="_blank" >
-                        <img src="images/in.png" width="26px">
-                    </a>    
-                    <a href="https://www.instagram.com/jmink_9/?igsh=MWw2dGh5cmRtcnc2MQ%3D%3D&utm_source=qr">
-                        <p class="footer">@jmink_9</p>
-                    </a>
-                </div>
-                <img id="star02" src="images/star.png" alt="별">
             </div>
-                <footer>
-                    <p>본 페이지는 상업적 목적이 아닌 포트폴리오용으로 제작되었습니다.</p>
-                </footer>
+            </div>
+            <footer>
+                <p>본 페이지는 상업적 목적이 아닌 포트폴리오용으로 제작되었습니다.<br>
+                    © 2019 Kim, Ji-Min. All Rights Reserved.</p>
+            </footer>   
         </div>
     </div>
 
     <!--js-->
-    <script src="js/page.js"></script>
+    <script src="js/page copy.js"></script>
+ 
+        <script>
+            function openCenteredWindow(url, width, height) {
+                var left = (screen.width - width) / 2;
+                var top = (screen.height - height) / 2;
+
+                window.open(url, '', 'width=' + width + ', height=' + height + ', top=' + top + ', left=' + left);
+            }
+            </script>
 </body>
 </html>
